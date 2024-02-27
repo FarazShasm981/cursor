@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="sec" id="Turtle">
+            <h1>Turtle</h1>
+            <img src="./image/img 1.jpg" alt="">
+        </div>
+        <div class="sec" id="panda">
+            <h1>Panda</h1>
+            <img src="./image/img 2.jpg" alt="">
+        </div>
+        <div class="sec" id="eagle">
+            <h1>Eagle</h1>
+            <img src="./image/img 3.jpg" alt="">
+        </div>
+        <div class="sec" id="butterfly">
+            <h1>Butter Fly</h1>
+            <img src="./image/img 4.jpg" alt="">
+        </div>
+    </div>
+
+
+
+    <script>
+        //-----------------
+        var sec1 = document.querySelector("#Turtle");
+        var turtleimg = document.querySelector("#Turtle img");
+        sec1.addEventListener("mousemove", function (dets) {
+            turtleimg.style.left = dets.x + "px";
+            turtleimg.style.top = dets.y + "px";
+
+
+        });
+        sec1.addEventListener("mouseenter", function (dets) {
+            turtleimg.style.opacity = 1;
+
+        });
+        sec1.addEventListener("mouseleave", function (dets) {
+            turtleimg.style.opacity = 0;
+
+        });
+
+        //--------------------------
+
+        var sec2 = document.querySelector("#panda");
+        var pandaimg = document.querySelector("#panda img");
+        sec2.addEventListener("mousemove", function (dets) {
+            pandaimg.style.left = dets.x + "px";
+            pandaimg.style.top = dets.y + "px";
+
+
+        });
+        sec2.addEventListener("mouseenter", function (dets) {
+            pandaimg.style.opacity = 1;
+
+        });
+        sec2.addEventListener("mouseleave", function (dets) {
+            pandaimg.style.opacity = 0;
+
+        });
+
+        //-----------------------------
+
+
+        var sec3 = document.querySelector("#eagle");
+        var eagleimg = document.querySelector("#eagle img");
+        sec3.addEventListener("mousemove", function (dets) {
+            eagleimg.style.left = dets.x + "px";
+            eagleimg.style.top = dets.y + "px";
+
+
+        });
+        sec3.addEventListener("mouseenter", function (dets) {
+            eagleimg.style.opacity = 1;
+
+        });
+        sec3.addEventListener("mouseleave", function (dets) {
+            eagleimg.style.opacity = 0;
+
+        });
+
+        //---------------------------------
+
+
+        var sec4 = document.querySelector("#butterfly");
+        var butterflyimg = document.querySelector("#butterfly img");
+        sec4.addEventListener("mousemove", function (dets) {
+            butterflyimg.style.left = dets.x + "px";
+            butterflyimg.style.top = dets.y + "px";
+
+
+        });
+        sec4.addEventListener("mouseenter", function (dets) {
+            butterflyimg.style.opacity = 1;
+
+        });
+        sec4.addEventListener("mouseleave", function (dets) {
+            butterflyimg.style.opacity = 0;
+
+        });
+    </script>
+</body>
+
+</html>

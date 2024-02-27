@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+    color: #fff;
+
+}
+
+#container {
+    width: 100vw;
+    background-color: rgb(14, 14, 65);
+    position: relative;
+}
+
+.sec {
+    border-bottom: 2px solid white;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.sec h1 {
+    letter-spacing: 5px;
+    font-size: 40px;
+    z-index: 1000;
+    position: relative;
+    mix-blend-mode:difference;
+
+}
+
+.sec img {
+    height: 100px;
+    width: 100px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
