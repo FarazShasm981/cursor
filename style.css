@@ -39,8 +39,7 @@
     object-fit: cover;
     border-radius: 50%;
     position: absolute;
-    transform: translate(-50%, -50%);
     opacity: 0;
-    transition: all linear 0.3s;
+    transition: all linear 0.5s;
     cursor: pointer;
 }
